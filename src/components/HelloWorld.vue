@@ -1,38 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@Munene44
-Learn Git and GitHub without any code!
-
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-ratracegrad /
-vue-eCharts-demo
-
-1
-11
-
-    5
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-
-    Insights
-
-vue-eCharts-demo/src/components/HelloWorld.vue
-@ratracegrad
-ratracegrad first commit
-Latest commit 93117cf on Apr 7, 2019
-History
-1 contributor
-87 lines (85 sloc) 1.44 KB
 <template>
   <div>
     <div class="chart-wrapper">
@@ -101,7 +66,7 @@ export default {
         text: "Monthly Stock Prices",
         x: "center",
         textStyle: {
-          fontSize: 24
+          fontSize: 20
         }
       },
       color: ["#127ac2"]
@@ -112,11 +77,11 @@ export default {
 
 <style scoped>
 .chart-wrapper {
-  width: 100%;
+  width: 70%;
   height: 700px;
 }
 .echarts {
-  width: 100%;
+  width: 70%;
   height: 100%;
 }
 </style>
