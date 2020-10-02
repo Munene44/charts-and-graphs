@@ -1,9 +1,9 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
+import "@/plugins/echarts";
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
-import "@/plugins/echarts";
+  render: h => h(App)
+}).$mount("#app");
