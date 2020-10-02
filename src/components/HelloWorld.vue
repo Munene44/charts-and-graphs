@@ -3,10 +3,10 @@
 </template>
 
 <script>
-Le export default {
+  export default {
   name: 'HelloWorld',
   data: () => ({
-    chartOptionsBar: {chartOptionsBar: {
+   chartOptionsBar: {
   xAxis: {
     data: ['Q1', 'Q2', 'Q3', 'Q4']
   },
@@ -20,7 +20,7 @@ Le export default {
     }
   ]
 }
-}
+
   })
 }
 </script>
