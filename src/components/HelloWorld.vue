@@ -3,8 +3,11 @@
 </template>
 
 <script>
-export default_ {
+Le export default {
   name: 'HelloWorld',
+  data: () => ({
+    chartOptionsBar: {}
+  })
 }
 </script>
 
