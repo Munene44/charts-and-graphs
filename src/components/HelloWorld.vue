@@ -77,11 +77,11 @@ export default {
 
 <style scoped>
 .chart-wrapper {
-  width: 70%;
+  width: 90%;
   height: 700px;
 }
 .echarts {
-  width: 70%;
+  width: 90%;
   height: 100%;
 }
 </style>
